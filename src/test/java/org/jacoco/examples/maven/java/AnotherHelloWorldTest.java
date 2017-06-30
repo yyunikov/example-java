@@ -5,18 +5,18 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class HelloWorldTest {
+public class AnotherHelloWorldTest {
 
-	private HelloWorld subject;
+	private AnotherHelloWorld subject;
 
 	@Before
 	public void setup() {
-		subject = new HelloWorld();
+		subject = new AnotherHelloWorld();
 	}
 
 	@Test
 	public void testGetMessage() {
-		assertEquals("Hello World!", subject.getMessage(false));
+		assertEquals("Another message", subject.getAnotherMessage());
 	}
 
 }
