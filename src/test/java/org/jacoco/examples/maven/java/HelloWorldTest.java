@@ -18,5 +18,4 @@ public class HelloWorldTest {
 	public void testGetMessage() {
 		assertEquals("Hello World!", subject.getMessage(false));
 	}
-
 }
