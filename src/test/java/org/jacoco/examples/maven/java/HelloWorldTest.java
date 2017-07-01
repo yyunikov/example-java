@@ -23,9 +23,4 @@ public class HelloWorldTest {
 	public void testGetAnotherMessage() {
 		assertEquals("Another", subject.getAnotherMessage());
 	}
-
-	@Test
-	public void testGetAnotherMessage2() {
-		assertEquals("Another2", subject.getAnotherMessage2());
-	}
 }
