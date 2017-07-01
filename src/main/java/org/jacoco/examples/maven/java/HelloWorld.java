@@ -11,6 +11,6 @@ public class HelloWorld {
 	}
 
 	public String getAnotherMessage() {
-		return "Another message";
+		return "Another";
 	}
 }
