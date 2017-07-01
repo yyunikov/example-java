@@ -17,4 +17,8 @@ public class HelloWorld {
 	public String getAnotherMessage2() {
 		return "Another2";
 	}
+
+	public String getAnotherMessage3() {
+		return "Another3";
+	}
 }
