@@ -18,14 +18,4 @@ public class HelloWorldTest {
 	public void testGetMessage() {
 		assertEquals("Hello World!", subject.getMessage(false));
 	}
-
-	@Test
-	public void testGetAnotherMessage() {
-		assertEquals("Another", subject.getAnotherMessage());
-	}
-
-	@Test
-	public void testGetAnotherMessage2() {
-		assertEquals("Another2", subject.getAnotherMessage2());
-	}
 }

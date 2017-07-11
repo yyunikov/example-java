@@ -9,12 +9,4 @@ public class HelloWorld {
 			return "Hello World!";
 		}
 	}
-
-	public String getAnotherMessage() {
-		return "Another";
-	}
-
-	public String getAnotherMessage2() {
-		return "Another2";
-	}
 }
