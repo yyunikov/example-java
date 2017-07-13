@@ -9,4 +9,8 @@ public class HelloWorld2 {
 			return "Hello World!";
 		}
 	}
+
+	public String getMessage2() {
+		return "Hello World2!";
+	}
 }
