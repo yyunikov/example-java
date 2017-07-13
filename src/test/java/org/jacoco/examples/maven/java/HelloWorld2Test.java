@@ -13,7 +13,6 @@ public class HelloWorld2Test {
 	public void setup() {
 		subject = new HelloWorld2();
 	}
-
 	@Test
 	public void testGetMessage() {
 		assertEquals("Hello World!", subject.getMessage(false));
