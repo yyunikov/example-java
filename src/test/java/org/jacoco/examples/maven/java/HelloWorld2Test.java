@@ -7,11 +7,11 @@ import static org.junit.Assert.assertEquals;
 
 public class HelloWorld2Test {
 
-	private HelloWorld subject;
+	private HelloWorld2 subject;
 
 	@Before
 	public void setup() {
-		subject = new HelloWorld();
+		subject = new HelloWorld2();
 	}
 
 	@Test
